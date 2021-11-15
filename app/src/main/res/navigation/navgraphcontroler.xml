@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraphcontroler"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ymejia.notes.General.Fragments.HomeFragment"
+        android:label="HOME"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_taskFragment"
+            app:destination="@id/taskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.ymejia.notes.General.Fragments.UserFragment"
+        android:label="PROFILE"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="com.ymejia.notes.General.Fragments.TaskFragment"
+        android:label="TASK"
+        tools:layout="@layout/fragment_task" />
+</navigation>

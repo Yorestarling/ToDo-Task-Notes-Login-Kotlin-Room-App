@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -35,6 +36,7 @@ android {
     }
     buildFeatures{
         viewBinding true
+        dataBinding true
     }
 
 }
@@ -49,6 +51,12 @@ dependencies {
     // Room components
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
     implementation 'androidx.databinding:databinding-runtime:7.0.3'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-common-ktx:20.0.0'
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 

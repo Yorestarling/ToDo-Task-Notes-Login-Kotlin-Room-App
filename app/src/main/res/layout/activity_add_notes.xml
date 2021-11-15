@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddNotesActivity">
+    android:background="@color/blues"
+    tools:context=".AddNotesActivity"
+    >
 
 
     <EditText
@@ -17,8 +19,8 @@
         android:layout_marginBottom="10dp"
         android:hint="Enter Note Title"
         android:minHeight="48dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/purple_700" />
+        android:textColor="@color/white"
+        android:textColorHint="@color/black" />
 
     <!--edit text for note description-->
     <EditText
@@ -35,7 +37,7 @@
         android:hint="Enter your Note Details"
         android:inputType="textMultiLine"
         android:singleLine="false"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textColorHint="@color/black" />
 
     <!--button for saving and updating a note-->
@@ -44,9 +46,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/custom_buttom"
-        android:text="Button"
+        android:backgroundTint="@color/whiteblues"
+        android:text="@string/SaveNote"
         android:textAllCaps="false"
         android:textColor="@color/white" />
 

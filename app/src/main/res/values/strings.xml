@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Notes</string>
+    <string name="app_name">Task List</string>
 
     <string name="LogIn">Log In</string>
     <string name="SignUp">Sign Up</string>
@@ -16,4 +16,33 @@
     <string name="Phone">Phone Number</string>
     <string name="BackLog">Back to Login</string>
     <string name="example_item">example item</string>
+    <string name="AddTask">Task List</string>
+
+    <string name="SaveNote">Save Task</string>
+    <string name="AddsTask">Add Task</string>
+
+
+    <string name="BtnRegister">Register</string>
+    <string name="BtnLogIn">Log In</string>
+    <string name="BtnAccessInside">Log In</string>
+    <string name="BtnLogOut">Log Out</string>
+    <string name="BtnRegisterInside">Register</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="TxtName">Name</string>
+    <string name="TxtLastName">Last Name</string>
+    <string name="TxtPhone">Phone</string>
+    <string name="TxtEmail">E-mail</string>
+    <string name="TxtGender">Gender</string>
+    <string name="TxtDateOfBirth">Date of Birth</string>
+    <string name="TxtCountry">Country</string>
+    <string name="TxtState">State</string>
+    <string name="TxtAddress">Address</string>
+    <string name="BtnForgot">Forgot password?</string>
+    <string name="TxtPassword">Password</string>
+    <string name="TxtRePassword">Re-password</string>
+    <string name="btnSubmit">SUBMIT</string>
+    <string name="edUserId">USER ID: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
